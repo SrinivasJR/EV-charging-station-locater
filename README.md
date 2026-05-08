@@ -1,32 +1,88 @@
-# EV-charging-station-locater
-## EV charging:
-EV charging involves supply of direct current (DC) to the battery pack. As electricity distribution systems supply alternate current (AC) power, a converter is required to provide DC power to the battery.<br>
-The website aims at providing a user-friendly interface which can be accessed by any user without any limitations. Since the use of Electric vehicles have been increased the need for station locators have become a neccessaary aspect to travel through without any hassels. The website provides assistance in finding the best possible station in and around the place specified.
-# Home Page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EV Charging Station Locator</title>
 
-![WhatsApp Image 2022-10-16 at 2 52 58 PM](https://user-images.githubusercontent.com/92366931/196028187-0cae488a-f6e0-4026-bd5a-3496d294f796.jpeg)
-![WhatsApp Image 2022-10-16 at 2 54 27 PM](https://user-images.githubusercontent.com/92366931/196028194-fc2634f7-b4f5-43c0-bdba-30b79d854dd8.jpeg)
-![WhatsApp Image 2022-10-16 at 2 56 04 PM (1)](https://user-images.githubusercontent.com/92366931/196028332-1e804a8e-d9f1-4cad-80c3-3d5ed14601fb.jpeg)
+  <style>
+    body{
+      margin:0;
+      font-family:Arial, sans-serif;
+      background:#f4f4f4;
+      color:#333;
+    }
 
-# Features of the website
+    header{
+      background:#0a8754;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
 
-### 1.EV Charging Locator
+    .container{
+      width:90%;
+      margin:auto;
+      padding:20px;
+    }
 
-The main feature of the website which enables easy access to EV charging station in and around the location the user enters.
+    .card{
+      background:white;
+      padding:20px;
+      margin:20px 0;
+      border-radius:10px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    }
 
-![WhatsApp Image 2022-10-16 at 3 11 34 PM](https://user-images.githubusercontent.com/92366931/196028704-2683fd07-ddd0-4eea-83ad-e761720fc5c1.jpeg)
+    h2{
+      color:#0a8754;
+    }
 
-### 2.Map Routing
+    footer{
+      background:#222;
+      color:white;
+      text-align:center;
+      padding:15px;
+      margin-top:30px;
+    }
+  </style>
+</head>
 
-The feature of the website which enables the user to enroute his journey by specifing the his current loction and the the destination. 
+<body>
 
-![WhatsApp Image 2022-10-16 at 3 13 23 PM](https://user-images.githubusercontent.com/92366931/196028735-4f6ec2fe-23df-4863-bfba-46d40885c554.jpeg)
+<header>
+  <h1>EV Charging Station Locator</h1>
+  <p>Find nearby EV charging stations easily</p>
+</header>
 
-### 3. Traffic Detection
+<div class="container">
 
-The feature of the website which determines the current traffic status around the specified loction based on the the radius of area mentioned by the user. 
+  <div class="card">
+    <h2>About EV Charging</h2>
+    <p>
+      EV charging involves supplying direct current (DC) power to electric vehicles.
+      This website helps users locate EV charging stations quickly and easily.
+    </p>
+  </div>
 
-![WhatsApp Image 2022-10-16 at 3 16 13 PM](https://user-images.githubusercontent.com/92366931/196028829-578cb152-0f60-40e6-a72c-dcf76de4b5cf.jpeg)
+  <div class="card">
+    <h2>Features</h2>
 
-##### The above three features illustrated above depicts the three stages from which the user can inherit the needed information about the electric charging station and find the best route to reach the EV charging station from the website 
+    <h3>1. EV Charging Locator</h3>
+    <p>Find nearby charging stations around your location.</p>
 
+    <h3>2. Map Routing</h3>
+    <p>Get the best route from your location to the charging station.</p>
+
+    <h3>3. Traffic Detection</h3>
+    <p>Check live traffic around charging stations.</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>EV Charging Station Locator Project</p>
+</footer>
+
+</body>
+</html>
